@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript Nodejs Api\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D.js Api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Awais Amin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.2.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
